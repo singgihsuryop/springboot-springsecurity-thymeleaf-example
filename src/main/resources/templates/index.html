@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+</head>
+<body>
+	<h1 th:text="${title}" align="center" style="font-weight: bold"></h1>
+	<h1 th:text="${message}" align="center" style="font-weight: bold"></h1>
+	
+	<!-- logout button -->
+	<!-- <div id="logout" class="btn-header pull-right"> -->
+	<div class="btn-logout">
+
+	
+		<span> 
+			<a href="#" th:href="@{/logout-now}" title="Sign Out"> Logout</a> 
+<!-- 			<a href="#" th:href="@{j_spring_security_logout}" title="Sign Out"> Logout</a>  -->
+		
+		</span>
+<!-- 		<form style="visibility: hidden" id="formlogout" method="post" action="#" th:action="@{/logout}"> -->
+<!-- 		 	<input type="hidden" id="userIdAndMemberCodeLogout" name="userIdAndMemberCodeLogout" th:value="${#authentication != null ? #authentication.name : ''}" /> -->
+<!-- 		</form> -->
+	</div>
+	<!-- end logout button -->
+</body>
+</html>

@@ -1,0 +1,24 @@
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── singgihsuryop
+│   │   │           └── springboot
+│   │   │               └── springsecurity
+│   │   │                   ├── Application.java
+│   │   │                   └── httpbasic
+│   │   │                       ├── CustomLogoutHandler.java
+│   │   │                       ├── WebSecurityConfig.java
+│   │   │                       └── web
+│   │   │                           └── HomeController.java
+│   │   ├── resources
+│   │   │   ├── application.yml
+│   │   │   ├── static
+│   │   │   └── templates
+│   │   │       ├── index.html
+│   │   │       └── login.html
+│   │   └── webapp
+│   │       └── WEB-INF
+│   │           ├── jboss-deployment-structure.xml
+│   │           └── jboss-web.xml
